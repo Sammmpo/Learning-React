@@ -1,23 +1,27 @@
 import React from 'react';
+import RacePage from './RacePage.js';
 
 function InfoPage(props) {
-    const {name} = props;
-    //let array = document.getElementsByTagName("InfoPage");
+    const {selectedClass, selectedRace} = props;
+    
     return(
-        <span>{name}</span>
+        <div>
+        <p>{selectedClass} {selectedRace}</p>
+        <RacePage race={selectedRace} selectedClass={selectedClass}/>
+        </div>
     );
 }
 
-// class InfoPage extends Component {
-    
-//     render() {
+// function getPage(value){
+//     if (value === "human"){ return <PageHuman/>}
+//     if (value === "nightelf"){return <PageNightelf/>}
+//     if (value === "dwarf"){return <PageDwarf/>}
+//     if (value === "gnome"){return <PageGnome/>}
 
-
-//         return(
-//             <span>lol</span>
-//         );
-//     }
-    
+//     if (value === "orc"){return <PageOrc/>}
+//     if (value === "tauren"){return <PageTauren/>}
+//     if (value === "undead"){return <PageUndead/>}
+//     if (value === "troll"){return <PageTroll/>}
 // }
 
 export default InfoPage;

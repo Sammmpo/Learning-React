@@ -3,7 +3,6 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
@@ -27,6 +26,16 @@
   to { transform: rotate(360deg); }
 }
 
+body{
+  background-image: url("/img/wallpaper.png");
+}
+
 .greyOut{
   opacity: 0.5;
+}
+
+.racial{
+  color: white;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
 }
