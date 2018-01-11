@@ -31,11 +31,40 @@ body{
 }
 
 .greyOut{
-  opacity: 0.5;
+  opacity: 0.25;
 }
 
+.text{
+  font-family: Arial;
+  color: white;
+  font-size: 15px;
+}
 .racial{
   color: white;
   margin: 10px;
   background-color: rgba(0, 0, 0, 0.75);
+}
+.skillicon{
+  height: 100px;
+  object-fit: contain;
+  top: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.racialName{
+  font-family: Arial;
+  font-size: 25px;
+  margin: 5px;
+  object-fit: contain;
+}
+.racialDesc{
+  font-family: Arial;
+  font-size: 15px;
+  margin: 10px;
+  object-fit: contain;
+}
+.racialText{
+  top: 50%;
 }

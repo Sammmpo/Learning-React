@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Navbar, Jumbotron, Button } from 'react-bootstrap';
 import './App.css';
 import ClassIcon from './ClassIcon.js';
 import RaceIcon from './RaceIcon.js';
@@ -43,7 +44,7 @@ class App extends Component {
           <img src="/img/wow.png" className="App-logo" alt="logo" />
           <h1 className="App-title">WoW Classic</h1>
         </header>
-        <p className="App-intro">Choose Class</p>
+        <p className="App-intro text">Choose Class and Race</p>
             { allClasses.map(name => {
             return <ClassIcon key={name} name={name} classClick={this.classClick} active={this.state.selectedClass === name} />
             }) }
