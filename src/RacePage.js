@@ -205,7 +205,7 @@ const priestRacials = { //priests have 2 extra racial skills.
     troll: priestRacialsTroll
 }
 const uselessByClass = { //useless racial skills for each class.
-    warrior: ["The Human Spirit", "Gun Specialization", "Expansive Mind", "Command"],
+    warrior: ["The Human Spirit", "Gun Specialization", "Expansive Mind", "Command", "Throwing/Bow Specialization"],
     paladin: ["Gun Specialization"],
     shaman: ["Command", "Throwing/Bow Specialization"],
     hunter: ["Quickness", "Blood Fury", "Axe Specialization"],
